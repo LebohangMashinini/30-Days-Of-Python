@@ -1,50 +1,30 @@
-#exercise 2
-#1
-print(3 + 4)
-print(3 - 4)
-print(3 / 4)
-print(3 * 4)
-print(3 % 4)
-print(3 // 4)
-print(3 ** 4)
+#Exercise: Level 1
 
 #2
-print('Khosi')
-print('Dlomo')
-print('South Africa')
-print('I am enjoying Python')
-
+print(3 + 4)
+print(3 - 4)
+print(3 * 4)
+print(3 % 4)
+print(3 / 4)
+print(3 ** 4)
+print(3 // 4)
 
 #3
-print(type(10))
-print(type(9.8))
-print(type(3.14))
-print(type(4 - 4j))
-print(type(['Asabeneh', 'Python', 'Finland']))
-print(type('Khosi'))
-print(type('Dlomo'))
-print(type('South Africa'))
+print("Lee")
+print("Mashinini")
+print("South Africa")
+print("I am enjoying 30 days of python")
 
-#exercise 3
-#1 datatypes
-print(3 + 3)
-print(type(3))
-print(3 / 2)
-print(type(3 / 2))
-print(4 - 4j)
-print(type(5 - 5j))
-print("name")
-print(type("name"))
-print(5 < 10)
-print(type(5 < 10))
-print([2,3,4,5])
-print(type([2,3,4,5]))
-print((2,4))
-print(type((2,4)))
-print({2,3,4})
-print(type({2,3,4}))
-print({'name': 'khosi'})
-print(type({'name': 'khosi'}))
-
-#Euclidian distance
-print(((10 - 2) ** 2 +(8 - 3) **2) **0.5)
+#4
+print(type(10))  #int
+print(type(9.8))  #float
+print(type(3.14))  #float
+print(type(4 - 4j))  #complex
+print(type(["Asabeneh", "Python", "Finland"]))  #list
+print(type(True)) #boolean
+print(type({"Asabeneh", "Python", "Finland"})) #set
+print(type({"name" : "Lee"})) #dictionary
+print(type(("list", "set", "dict")))  #tuple
+print(type("Lee"))  #str
+print(type("Mashinini"))  #str
+print(type("South Africa"))  #str
