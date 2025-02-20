@@ -65,8 +65,23 @@ j = socials.split(",")
 print(j)
 
 #15
-print(string[0])
+string1 = "_Coding For All_"
+print(string1[0])
 
 #16
-print(string[-1])
+print(string1[-1])
+
+#17
+print(string1[10])
+
+#18
+create_acronym = "Python For Everyone"
+acronym = ''.join(word[0].upper() for word in create_acronym.split())
+print(acronym)  
+
+#19
+create_acrnym = "Coding For All"
+acrnym = ''.join(word[0].upper() for word in create_acrnym.split())
+print(acrnym)
+
 
