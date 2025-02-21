@@ -45,3 +45,60 @@ print(last_company)
 #11
 it_companies.insert(7, "Samsung")
 print(it_companies)
+
+#12
+it_companies.insert(4, "Dell")
+print(it_companies)
+
+#13
+it_companies[3] = it_companies[3].upper()
+print(it_companies)
+
+#14
+join_str = "#; ".join(it_companies)
+print(join_str)
+
+#15
+if "Samsung" in it_companies:
+    print("Company is in the list")
+else:
+    print("Company not in the list")
+
+#16
+it_companies.sort()
+print(it_companies)
+
+#17
+it_companies.reverse()
+print(it_companies)
+
+
+#18
+sliced = it_companies[0:3]
+print(sliced)
+
+#19
+reversed_sliced = it_companies[-3:]
+print(reversed_sliced)
+
+#20
+start_len_of_list = len(it_companies) // 2
+end_len_of_list = len(it_companies) // 2
+
+mid_sliced = it_companies[start_len_of_list:end_len_of_list+1]
+print(mid_sliced)
+
+#21
+# del it_companies[0]
+# print(it_companies)
+
+# #22
+# del it_companies[start_len_of_list:end_len_of_list+1]
+# print(it_companies)
+
+#23
+del it_companies[-1]
+print(it_companies)
+
+#24
+
