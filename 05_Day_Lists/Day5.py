@@ -101,4 +101,19 @@ del it_companies[-1]
 print(it_companies)
 
 #24
+it_companies.clear()
+print(it_companies)
 
+#25
+#26
+front_end = ['HTML', 'CSS', 'JS', 'React', 'Redux']
+back_end = ['Node','Express', 'MongoDB']
+
+join_list = front_end + back_end
+print(join_list)
+
+#27
+full_stack = join_list
+full_stack.insert(5, "Python")
+full_stack.insert(6, "SQL")
+print(full_stack)
