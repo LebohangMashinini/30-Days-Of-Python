@@ -33,18 +33,40 @@
 
 #Exercises: Level 2
 #1
-score = int(input("Enter your score: "))
-if score >= 80 and score == 100:
-    print("A")
-elif score >= 70 and score <= 89:
-    print("B")
-elif score >= 60 and score <= 69:
-    print("C")
-elif score >= 50 and score <= 59:
-    print("D")
-elif score >= 0 and score <= 49:
-    print("F")
-else:
-    print("Invalid score")
+# score = int(input("Enter your score: "))
+# if score >= 80 and score == 100:
+#     print("A")
+# elif score >= 70 and score <= 89:
+#     print("B")
+# elif score >= 60 and score <= 69:
+#     print("C")
+# elif score >= 50 and score <= 59:
+#     print("D")
+# elif score >= 0 and score <= 49:
+#     print("F")
+# else:
+#     print("Invalid score")
 
 #2
+# month = input("Enter month: ")
+# if month in ["September", "October", "November"]:
+#     print("The season is Autumn")
+# elif month in ["December", "January", "February"]:
+#     print("The season is Winter")
+# elif month in ["March", "April", "May"]:
+#     print("The season is Spring")
+# elif month in ["June", "July", "August"]:
+#     print("The season is Summer")
+# else:
+#     print("Invaild input.")
+
+#3
+fruits = ["banana", "orange", "mango", "lemon"]
+fruit = input("Enter fruit: ")
+if fruit in fruits:
+    print("That fruit already exist in the list.")
+elif fruit not in fruits:
+    fruits.append(fruit)
+    print(f"New list {fruits}")
+else:
+    print("Invalid input")
