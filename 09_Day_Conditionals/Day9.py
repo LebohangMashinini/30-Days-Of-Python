@@ -61,12 +61,32 @@
 #     print("Invaild input.")
 
 #3
-fruits = ["banana", "orange", "mango", "lemon"]
-fruit = input("Enter fruit: ")
-if fruit in fruits:
-    print("That fruit already exist in the list.")
-elif fruit not in fruits:
-    fruits.append(fruit)
-    print(f"New list {fruits}")
-else:
-    print("Invalid input")
+# fruits = ["banana", "orange", "mango", "lemon"]
+# fruit = input("Enter fruit: ")
+# if fruit in fruits:
+#     print("That fruit already exist in the list.")
+# elif fruit not in fruits:
+#     fruits.append(fruit)
+#     print(f"New list {fruits}")
+# else:
+#     print("Invalid input")
+
+#Exercises: Level 3
+#1
+person={
+    'first_name': 'Asabeneh',
+    'last_name': 'Yetayeh',
+    'age': 250,
+    'country': 'Finland',
+    'is_marred': True,
+    'skills': ['JavaScript', 'React', 'Node', 'MongoDB', 'Python'],
+    'address': {
+        'street': 'Space street',
+        'zipcode': '02210'
+    }
+    }
+print(person["skills"])
+
+skills = person["skills"]
+
+print(skills[len(skills)//2])
