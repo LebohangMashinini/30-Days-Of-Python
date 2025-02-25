@@ -90,3 +90,23 @@ print(person["skills"])
 skills = person["skills"]
 
 print(skills[len(skills)//2])
+
+#2
+print("Python" in skills)
+
+#3
+if skills == ["Javascript", "React"]:
+    print("He is a front end developer")
+elif skills == ["Node", "Python", "MongoDB"]:
+    print("He is a backend developer")
+elif skills == ["React", "Node", "MonogoDB"]:
+    print("He is a fullstack developer")
+else:
+    print("unknown title")
+
+#4
+is_married = person["is_married"]
+country = person["country"]
+
+if person is is_married and person == "Finland":
+    print(f"Asabeneh Yetayeh lives in {country}. He is married.")
